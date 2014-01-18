@@ -1,0 +1,32 @@
+{
+  "name": "TDD",
+  "version": "0.0.0",
+  "description": "",
+  "main": "source/calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sudodoki/mocha-travis-calculator-cat-kata.git"
+  },
+  "keywords": [
+    "TravisCI",
+    "example",
+    "mocha",
+    "Node"
+  ],
+  "author": "sudodoki <smd.deluzion@gmail.com> (http://sudodoki.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudodoki/mocha-travis-calculator-cat-kata/issues"
+  },
+  "homepage": "https://github.com/sudodoki/mocha-travis-calculator-cat-kata",
+  "dependencies": {
+    "should": "~3.0.1",
+    "mocha": "~1.17.0"
+  }
+}
